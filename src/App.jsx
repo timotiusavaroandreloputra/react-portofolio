@@ -14,6 +14,7 @@ import AOS from 'aos';
 import ChatRoom from "./components/ChatRoom";
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Education from "./components/Education";
+import SplashCursor from "./components/SplashCursor";
 
 // ..
 AOS.init();
@@ -55,6 +56,7 @@ function App() {
 
   return (
     <>
+    <SplashCursor />   {/* <==== TAMBAHKAN DI SINI */}
       <div className="absolute top-0 left-0 w-full h-full -z-10 ">
         <Aurora
           colorStops={["#577870", "#1F97A6", "#127B99"]}

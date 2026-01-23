@@ -1,6 +1,7 @@
 import "remixicon/fonts/remixicon.css";
 import Dock from "./Dock/Dock";
 import { VscHome, VscArchive, VscAccount } from "react-icons/vsc";
+import { RiWhatsappFill } from "react-icons/ri";
 
 const Footer = () => {
   const items = [
@@ -20,10 +21,26 @@ const Footer = () => {
         </h1>
 
         {/* Ikon Sosmed - di tengah di mobile */}
-        <div className="flex gap-3 order-2 md:order-none">
-          <a href="https://github.com/timotiusavaroandreloputra"><i className="ri-github-fill ri-2x"></i></a>
-          <a href="https://www.instagram.com/varoandrelo/"><i className="ri-instagram-fill ri-2x"></i></a>
-        </div>
+       <div className="flex gap-4 order-2 md:order-none items-center">
+
+  <a href="https://github.com/timotiusavaroandreloputra" target="_blank">
+    <i className="ri-github-fill ri-2x"></i>
+  </a>
+
+  <a href="https://www.instagram.com/vaerdano/" target="_blank">
+    <i className="ri-instagram-fill ri-2x"></i>
+  </a>
+
+  {/* ✅ WhatsApp */}
+  <a
+    href="https://wa.me/62895606091424?text=Halo%20saya%20dari%20portofolio%20react%20anda"
+    target="_blank"
+    className="text-white/80 hover:text-white hover:scale-110 transition duration-300">
+    <RiWhatsappFill size={26} />
+  </a>
+
+</div>
+
 
         {/* Dock - paling bawah di mobile */}
         <div className="order-3 md:order-none mt-15 md:mt-0  md:mb-0">

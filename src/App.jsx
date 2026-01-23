@@ -16,6 +16,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Education from "./components/Education";
 import SplashCursor from "./components/SplashCursor";
 
+
 // ..
 AOS.init();
 
@@ -98,7 +99,7 @@ function App() {
             <ProfileCard
               name="Timotius Avaro Andrelo Putra"
               title="IT Student"
-              handle="varoandrelo"
+              handle="vaerdano"
               status="Sibuk"
               contactText="Hubungi Saya"
               showUserInfo={true}
@@ -141,7 +142,7 @@ function App() {
                   </div>
                   <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true">
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      3.52<span className="text-violet-500">/4.00</span>
+                      3.55<span className="text-violet-500">/4.00</span>
                     </h1>
                     <p>GPA</p>
                   </div>
